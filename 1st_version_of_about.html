@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Seeking justice and reparations for the victims of Israeli atrocities in Gaza. Transitional Justice for Gaza (TJG) is a not-for-profit organization working on prosecution, truth, acknowledgment, and reparations." />
+    <meta name="author" content="Mostafa Hassan" />
+    <title>TJG - About</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="src/assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="dist/css/styles.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .timeline {
+            list-style: none;
+            padding: 0;
+            position: relative;
+        }
+
+        .timeline:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #5b5b5b;
+            left: 50%;
+            margin-left: -1px;
+        }
+
+        .timeline-item {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .timeline-item:before,
+        .timeline-item:after {
+            content: '';
+            display: table;
+        }
+
+        .timeline-item:after {
+            clear: both;
+        }
+
+        .timeline-img {
+            background-color: white; /* Set the background color to white */
+            border-radius: 50%;
+            width: 80px; /* Fixed width for layout */
+            height: 80px; /* Fixed height for layout */
+            overflow: hidden;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo both horizontally and vertically */
+        }
+
+        .timeline-content {
+            width: 45%;
+            float: left;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .timeline-content.left {
+            float: right;
+        }
+
+        .timeline-content h2 {
+            margin-top: 0;
+        }
+
+        .timeline-logo {
+            max-width: 100%;
+            border-radius: 50%;
+            position: relative; /* Add this line to make the logo position relative to the parent */
+            top: 50%; /* Add this line to vertically center the logo */
+            transform: translateY(-50%); /* Add this line for better vertical centering */
+            float: left;
+        }
+        .underline {
+            text-decoration: underline;
+            color: black;
+        }
+
+        .timeline-item:before {
+            content: attr(data-date); /* Show the date on the line */
+            display: block;
+            position: absolute;
+            top: -25px; /* Adjust the vertical position of the date */
+            left: 50%;
+            background-color: #007bff;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            transform: translateX(-50%);
+        }
+
+        .timeline-item:before {
+            content: attr(data-date); /* Show the date on the line */
+            display: block;
+            position: absolute;
+            top: -25px; /* Adjust the vertical position of the date */
+            left: 50%;
+            background-color: #007bff;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            transform: translateX(-50%);
+        }
+
+        .timeline-logo img {
+            max-width: 100%; /* Allow the logo to scale down proportionally */
+            border-radius: 50%;
+        }
+        .timeline-content ul {
+            margin-top: 0; /* Remove default margin for the unordered list */
+            padding-left: 20px; /* Add some padding for better readability */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-6">
+            <a class="navbar-brand" href="index.html">Transitional Justice for Gaza</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li id="home" class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li id="about" class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li id="context" class="nav-item"><a class="nav-link" href="Context.html">Context</a></li>
+                    <li id="volunteer" class="nav-item"><a class="nav-link" href="Volunteer.html">Volunteer</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content-->
+    <div class="container px-4 px-lg-5">
+        <!-- Personal Photo -->
+        <img src="Personal_Photo.JPG" alt="Mostafa Hassan" style="max-width: 200px; border-radius: 50%; margin-top: 20px; margin-bottom: 20px;" />
+
+        <!-- Resume content goes here -->
+        <h1>Mostafa Hassan (Founder)</h1>
+        <p style="text-align: justify;">
+            The profile of TJG's founder is displayed here solely to assure anyone considering joining this initiative that it is being led by someone who possesses the necessary academic and professional experience to coordinate all volunteered efforts in order to achieve the stated goals of TJG. This is NOT for marketing purposes.
+        </p>
+        
+        <!-- Horizontal Timeline - Professional Experience -->
+        <h2>Professional Experience</h2>
+        <ul class="timeline">
+            <li class="timeline-item" data-date="Jan 2018 - Dec 2023">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="UN_Logo.png" alt="United Nations Logo"></div>
+                </div>
+                <div class="timeline-content">
+                    <h2>United Nations</h2>
+                    <p><u class="underline">Investigator</u></p>
+                    <p style="text-align: justify;">
+                        Led internal and external investigations:
+                        <ul class="justified-text">
+                            <li>Planning investigations;</li>
+                            <li>Exploring and pursuing avenues of inquiry and investigation leads;</li>
+                            <li>Interviewing complainants, witnesses, survivors, and subjects;</li>
+                            <li>Gathering and analysing digital and physical evidence; and</li>
+                            <li>Preparing investigation reports.</li>
+                        </ul>
+                    </p>
+                </div>
+            </li>
+            <li class="timeline-item" data-date="Feb 2016 - Dec 2017">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="STL_Logo.png" alt="STL Logo"></div>
+                </div>
+                <div class="timeline-content left">
+                    <h2>Special Tribunal for Lebanon</h2>
+                    <p><u class="underline">Evidence Reviewer (Prosecution)</u></p>
+                    <p style="text-align: justify;">Reviewed and analysed thousands of evidentiary materials, including telecommunications and co-location data, for trial preparations and fulfilling the Prosecutor's disclosure obligations.</p>
+                </div>
+            </li>
+            <li class="timeline-item" data-date="April 2015 - Dec 2015" style="margin-bottom: 0;">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="ICC_Logo.png" alt="ICC Logo"></div>
+                </div>
+                <div class="timeline-content">
+                    <h2>International Criminal Court</h2>
+                    <p><u class="underline">Legal Consultant (Prosecution)</u></p>
+                    <p style="text-align: justify; margin-bottom: 0;">
+                        <strong>• Kenya I case (Prosecutor v. Ruto & Sang):</strong>
+                        <ul style="margin-top: 0; margin-bottom: 0; padding-left: 20px; list-style-type: square;">
+                            <li style="text-align: justify;">Conducted legal research and drafted several legal submissions, including:
+                                <ul style="margin-top: 0; margin-bottom: 0; padding-left: 20px; list-style-type: circle;">
+                                    <li style="text-align: justify;">Rule 68 Application: Rule 68 of the ICC Rules of Procedures and Evidence governs admission of prior recorded testimony, in lieu of oral testimony, in many instances including witness interference;</li>
+                                    <li style="text-align: justify;">Response to the defence "No Case to Answer" motion.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <br><strong>• Libya situation:</strong>
+                        <ul style="margin-top: 0; margin-bottom: 0; padding-left: 20px; list-style-type: square;">
+                            <li style="text-align: justify;">Drafted legal memoranda to assess 1) the relevance and utility of items of evidence to the prosecution case; and 2) the prospective admissibility of such items before the ICC Chambers.</li>
+                            <li style="text-align: justify;">Investigated the domestic criminal proceedings against the ICC accused. My findings were reiterated as is in the statement of the ICC Prosecutor to the UN Security Council.</li>
+                        </ul>
+                    </p>
+                </div>
+            </li>
+            <li class="timeline-item" data-date="Oct 2014 - April 2015">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="ICC_Logo.png" alt="ICC Logo"></div>
+                </div>
+                <div class="timeline-content left">
+                    <h2>International Criminal Court</h2>
+                    <p><u class="underline">Intern (Prosecution)</u></p>
+                    <p style="text-align: justify;">Contributed to the preparation of the prosecution examination outlines for eight key prosecution witnesses.</p>
+                </div>
+            </li>
+            <li class="timeline-item" data-date="Mar 2012 - Oct 2014">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="Egyptian_Prosecution_Logo.jpg" alt="Egyptian Prosecution Logo"></div>
+                </div>
+                <div class="timeline-content">
+                    <h2>Criminal Prosecution (Egypt)</h2>
+                    <p><u class="underline">Public Prosecutor</u></p>
+                    <p style="text-align: justify;">Prosecuted and investigated large-scale fraudulent schemes, terrorism, homicides, and gender-based violence.</p>
+                </div>
+            </li>
+            <!-- Add more professional experience entries as needed -->
+        </ul>
+
+        <!-- Horizontal Timeline - Education -->
+        <h2>Education</h2>
+        <ul class="timeline">
+            <li class="timeline-item" data-date="April 2022">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="NCA_Logo.png" alt="NCA Logo"></div>
+                </div>
+                <div class="timeline-content">
+                    <h2>National Committee on Accreditation</h2>
+                    <p><u class="underline">Certificate of Qualification</u></p>
+                    <p>Canadian JD equivalency</p>
+                </div>
+            </li>
+            <li class="timeline-item" data-date="Jan 2011 - May 2013">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="IUPUI_Logo.jpg" alt="IUPUI Logo"></div>
+                </div>
+                <div class="timeline-content left">
+                    <h2>IU McKinney School of Law</h2>
+                    <p><u class="underline">Masters in International and Comparative Law (LL.M.)</u></p>
+                </div>
+            </li>
+            <li class="timeline-item" data-date="Sept 2009 - Oct 2011">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="QMUL_Logo.jpg" alt="QMUL Logo"></div>
+                </div>
+                <div class="timeline-content">
+                    <h2>Queen Mary University of London</h2>
+                    <p><u class="underline">Masters in Law (LL.M.)</u></p>
+                </div>
+            </li>
+            <li class="timeline-item" data-date="Sept 2005 - May 2009">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="Cairo_Uni_Logo.png" alt="Cairo University Logo"></div>
+                </div>
+                <div class="timeline-content left">
+                    <h2>Cairo University</h2>
+                    <p><u class="underline">Bachelor of Law (Licence en Droit)</u></p>
+                </div>
+            </li>
+            <!-- Add more education entries as needed -->
+        </ul>
+
+        <!-- Horizontal Timeline - Certifications & Courses -->
+        <h2>Certifications & Courses</h2>
+        <ul class="timeline">
+            <li class="timeline-item" data-date="Sept 2021 - Dec 2022">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="MIT_Logo.png" alt="MIT Logo"></div>
+                </div>
+                <div class="timeline-content">
+                    <h2>Massachusetts Institute of Technology</h2>
+                    <p><u class="underline">Professional Certificate Program in Legal Tech</u></p>
+                </div>
+            </li>
+            <li class="timeline-item" data-date="Dec 2018">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="ACFE_Logo.png" alt="ACFE Logo"></div>
+                </div>
+                <div class="timeline-content left">
+                    <h2>Association of Certified Fraud Examiners</h2>
+                    <p><u class="underline">Certified Fraud Examiner</u></p>
+                    <p>Currently inactive</p>
+                </div>
+            </li>
+            <li class="timeline-item" data-date="June 2017">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="ICC_Bar_Logo.png" alt="ICC Bar Logo"></div>
+                </div>
+                <div class="timeline-content">
+                    <h2>ICC Bar Association</h2>
+                    <p><u class="underline">International Trial Advocacy Training Programme</u></p>
+                </div>
+            </li>
+            <li class="timeline-item" data-date="Nov 2016">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="IICI_Logo.png" alt="IICI Logo"></div>
+                </div>
+                <div class="timeline-content left">
+                    <h2>Institute for International Criminal Investigations</h2>
+                    <p><u class="underline">International Investigator Course</u></p>
+                </div>
+            </li>
+            <li class="timeline-item" data-date="Sept 2007 - Sept 2009">
+                <div class="timeline-img">
+                    <div class="timeline-logo"><img src="AUC_Logo.png" alt="Auc Logo"></div>
+                </div>
+                <div class="timeline-content">
+                    <h2>American University in Cairo</h2>
+                    <p><u class="underline">Professional Certificate in Legal and UN Translation</u></p>
+                </div>
+            </li>
+            <!-- Add more certification entries as needed -->
+        </ul>
+
+    </div>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-4 px-lg-5">
+            <p class="m-0 text-center text-white">Copyright &copy; <a href="https://www.linkedin.com/in/mostafahassan/" target="_blank">Mostafa Hassan</a> 2023</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="dist/js/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the current page URL
+            var currentUrl = window.location.href;
+    
+            // Check if the current URL contains the link for each page, and add the 'active' class accordingly
+            if (currentUrl.indexOf('index.html') !== -1) {
+                document.getElementById('home').classList.add('active');
+            } else if (currentUrl.indexOf('about.html') !== -1) {
+                document.getElementById('about').classList.add('active');
+            } else if (currentUrl.indexOf('Context.html') !== -1) {
+                document.getElementById('context').classList.add('active');
+            } else if (currentUrl.indexOf('Volunteer.html') !== -1) {
+                document.getElementById('volunteer').classList.add('active');
+            }
+        });
+    </script>
+</body>
+
+</html>
