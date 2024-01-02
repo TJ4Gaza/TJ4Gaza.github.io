@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Seeking justice and reparations for the victims of Israeli atrocities in Gaza. Transitional Justice for Gaza (TJG) is a not-for-profit organization working on prosecution, truth, acknowledgment, and reparations." />
+    <meta name="description" content="Seeking justice and reparations for the victims of Israeli atrocities in Gaza." />
     <meta name="author" content="Mostafa Hassan" />
     <title>TJG - About</title>
     <!-- Favicon-->
@@ -15,21 +15,23 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* Existing styles */
+        /* Updated styles for the popup box */
         .timeline-popup {
             display: none;
             position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            padding: 20px;
+            padding: 2vw; /* Adjust the padding based on the screen size */
             background-color: #fff;
             border: 1px solid #ddd;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 120%;
-            height: 120%;
+            width: 90vw; /* Adjust the width based on the screen size */
             max-width: 1000px;
+            height: 80vh; /* Adjust the height based on the screen size */
             max-height: 800px;
             overflow-y: auto;
+            z-index: 2; /* Set a higher z-index value to make it appear above other elements */
         }
     
         .popup-close {
@@ -51,21 +53,33 @@
             min-height: 100vh;
             margin: 0;
             padding: 0;
+            margin-bottom: 160px; /* Adjust this value based on your design */
         }
-    
-        .content {
+
+        .container {
             flex: 1;
         }
 
         footer {
-            width: 100%;
             background-color: #343a40;
             color: white;
-            padding: 20px 0;
-            position: fixed; /* Change to fixed positioning */
+            height: 5px; /* Adjust this value to control the height */
+            padding: 5px 0; /* You can adjust the padding if needed */
+            text-align: center;
+            width: 100%;
+            position: fixed;
             bottom: 0;
-            left: 0; /* Add left property */
-            text-align: center; /* Center the content */
+            left: 0;
+            z-index: 1;
+        }
+
+        .footer-container {
+            width: 100%;
+        }
+
+        /* Updated styles for the text in the footer */
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
@@ -117,7 +131,7 @@
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
-        <div class="container px-4 px-lg-5">
+        <div class="container-fluid">
             <p class="m-0 text-center text-white">Copyright &copy; <a href="https://www.linkedin.com/in/mostafahassan/" target="_blank">Mostafa Hassan</a> 2023</p>
         </div>
     </footer>
